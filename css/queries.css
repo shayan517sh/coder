@@ -1,0 +1,282 @@
+/*Big tablets to 1200px: (widths smaller than 1140px row) */
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 1199px;
+    margin: 0 auto;
+  }
+
+  .h1 {
+    font-size: 300%;
+  }
+  .header-parag {
+    font-size: 100%;
+  }
+  .down-arrow {
+    top: 185%;
+  }
+
+  .about-me-parag,
+  .about-me-parag1 {
+    margin-top: 25px;
+  }
+  .sec1-btn {
+    margin-top: 40px;
+  }
+
+  .contact-us-text-container {
+    width: 500px;
+  }
+  .contact-us-form {
+    width: 500px;
+  }
+  textarea {
+    height: 40vh;
+  }
+}
+
+/* @media only screen and (max-width: 1200px) {
+  .container {
+    width: 1022px;
+    margin: 0 auto;
+  }
+} */
+
+/*Small tablets to big tablets: (from 768px to 1023px) */
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 767px;
+    margin: 0 auto;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 90px;
+    font-size: 70%;
+  }
+  .header1 {
+    flex-direction: column;
+  }
+
+  .nav-container {
+    display: inline-flex;
+  }
+
+  .main-nav {
+    margin-right: 10px;
+  }
+
+  .h1 {
+    font-size: 200%;
+  }
+
+  .header-parag {
+    font-size: 60%;
+  }
+
+  .about-me {
+    margin-top: 400px;
+  }
+
+  .about-me-imgs-container {
+    margin-right: 35px;
+  }
+
+  .about-me-img {
+    width: 120%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  .about-me-parag1 {
+    font-size: 70%;
+    margin-bottom: 15px;
+  }
+
+  .about-me-parag,
+  .about-me-parag1 {
+    font-size: 60%;
+    margin-top: 25px;
+  }
+
+  .sec1-btn {
+    margin-top: 30px;
+  }
+
+  .experience {
+    bottom: -30px;
+    left: -18%;
+  }
+
+  .service-type ul li {
+    width: 310px;
+  }
+
+  .serv-icons {
+    font-size: 90%;
+  }
+
+  .link1 {
+    width: 150px;
+    height: 100px;
+  }
+
+  .link1:hover,
+  .link1:active {
+    width: 150px;
+    height: 100px;
+  }
+
+  .contact-us {
+    font-size: 80%;
+  }
+
+  .contact-us-text-container {
+    margin-right: 130px;
+    width: 300px;
+  }
+
+  .contact-us-form {
+    width: 300px;
+  }
+
+  .input {
+    width: 140px;
+    margin-right: 5px;
+  }
+
+  .budget {
+    color: #777777;
+    width: 160px;
+  }
+
+  textarea {
+    height: 25vh;
+    width: 310px;
+  }
+}
+
+/*Small phones to small tablets: (from 481px to 767px) */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 760px;
+    margin: 0 auto;
+  }
+
+  .service-type ul li {
+    width: 210px;
+  }
+
+  .experience {
+    left: 0%;
+  }
+
+  .about-me-img {
+    width: 100%;
+    height: 480px;
+  }
+
+  .input {
+    width: 130px;
+    margin-right: 5px;
+  }
+
+  textarea {
+    height: 25vh;
+    width: 290px;
+  }
+
+  .budget {
+    color: #777777;
+    width: 147px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .header1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-imgs {
+    display: none;
+  }
+
+  .down-arrow {
+    top: 180%;
+    left: 100%;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .dash-line,
+  .portfolio-dash-line,
+  .testimonials-dash-line,
+  .blogs-dash-line {
+    display: none;
+  }
+
+  .contact-us-text-container,
+  .contact-us-form {
+    width: 150px;
+  }
+
+  .contact-us-text-container {
+    margin-right: 15px;
+  }
+
+  .input {
+    width: 50px;
+  }
+
+  textarea {
+    width: 100px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+
+}
