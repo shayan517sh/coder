@@ -117,14 +117,15 @@
     font-size: 90%;
   }
 
+  
   .link1 {
-    width: 150px;
+    width: 100px;
     height: 100px;
   }
 
   .link1:hover,
   .link1:active {
-    width: 150px;
+    width: 100px;
     height: 100px;
   }
 
@@ -160,12 +161,29 @@
 /*Small phones to small tablets: (from 481px to 767px) */
 @media only screen and (max-width: 768px) {
   .container {
-    width: 760px;
+    width: 660px;
     margin: 0 auto;
   }
 
-  .service-type ul li {
-    width: 210px;
+  #navbar {
+    display: none;
+  }
+
+  .h1 {
+    font-size: 30px;
+  }
+
+  .header-parag {
+    font-size: 50%;
+  }
+
+  .down-arrow {
+    top: 330px;
+    left: 50%;
+  }
+
+  .about-me {
+    margin-top: 300px;
   }
 
   .experience {
@@ -175,6 +193,25 @@
   .about-me-img {
     width: 100%;
     height: 480px;
+  }
+
+  .service-type ul li {
+    width: 210px;
+  }
+
+  .link1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .link1:hover,
+  .link1:active {
+    width: 100px;
+    height: 100px;
+  }
+
+  .contact-us-sec-parag {
+    display: none;
   }
 
   .input {
@@ -190,6 +227,16 @@
   .budget {
     color: #777777;
     width: 147px;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .contact-us-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -207,7 +254,7 @@
     display: none;
   }
 
-  .about-me{
+  .about-me {
     margin-top: 200px;
   }
 
@@ -310,18 +357,17 @@
     display: none;
   }
 
-
-  .social-media{
+  .social-media {
     display: none;
   }
 
-  .contact-us-btn{
+  .contact-us-btn {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-   .contact-us-text-container,
+  .contact-us-text-container,
   .contact-us-form {
     width: 150px;
   }
@@ -334,7 +380,7 @@
     width: 120px;
   }
 
-  .budget{
+  .budget {
     width: 140px;
   }
 
